@@ -1,0 +1,435 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AudioManager::Awake()
+extern void AudioManager_Awake_mD7873A38A3ED577A313A05D24BF6511E59EDEC01 (void);
+// 0x00000002 System.Void AudioManager::PlayBGM(AudioManager/BGM)
+extern void AudioManager_PlayBGM_m9D98CA52640408CDCE6C7C7DBDB830DA8290FE13 (void);
+// 0x00000003 System.Void AudioManager::PlaySE(AudioManager/SE)
+extern void AudioManager_PlaySE_m18C8076F7C8A4381FC6DDFF4F4B1D0C91C1EE89D (void);
+// 0x00000004 System.Void AudioManager::.ctor()
+extern void AudioManager__ctor_m6C686441D1A1A223E4CF940A8EB0128535D603BD (void);
+// 0x00000005 System.Void ClearManager::Start()
+extern void ClearManager_Start_m6F23FAB8FB2C4C8FF8F7C290B1194EFD025417BB (void);
+// 0x00000006 System.Void ClearManager::.ctor()
+extern void ClearManager__ctor_m353DB9D546F2D337692878154C0C6C0349E581E1 (void);
+// 0x00000007 System.Void BreakablePig::Start()
+extern void BreakablePig_Start_mF6BBBEA260E1417D2D976C52800B54FDD4C57981 (void);
+// 0x00000008 System.Void BreakablePig::OnThis()
+extern void BreakablePig_OnThis_mDC5FE8416DB0304447FCBAD8A193195DA1E7ACD5 (void);
+// 0x00000009 System.Void BreakablePig::Break()
+extern void BreakablePig_Break_m5F4A1EF73C67149440076D5434A5E5CF1FD664A8 (void);
+// 0x0000000A System.Void BreakablePig::.ctor()
+extern void BreakablePig__ctor_m149BC2B85910FDEE6995270810C4B80A0ACA3F44 (void);
+// 0x0000000B System.Void DialLocker::OnMarkButton(System.Int32)
+extern void DialLocker_OnMarkButton_m425410204D8BBF413644B92C82E9E229117F55F5 (void);
+// 0x0000000C System.Void DialLocker::ChangeMark(System.Int32)
+extern void DialLocker_ChangeMark_mC167942E6BE211D97AF20228D6E6B1D77ED9A2E4 (void);
+// 0x0000000D System.Void DialLocker::ShowMark(System.Int32)
+extern void DialLocker_ShowMark_m0CE808886C90AA34ABC58B53250237F2E6B986D5 (void);
+// 0x0000000E System.Boolean DialLocker::IsALLClearMark()
+extern void DialLocker_IsALLClearMark_m0F3122DA22AC60BB512E12B5239040B07E797F91 (void);
+// 0x0000000F System.Void DialLocker::Clear()
+extern void DialLocker_Clear_m21B6EC18957B06FE31E1CA9A0854CCE908D44A4D (void);
+// 0x00000010 System.Void DialLocker::.ctor()
+extern void DialLocker__ctor_m4B494FC937FDCD160760A243939A87DFE8C68E3F (void);
+// 0x00000011 System.Void Elevator::Awake()
+extern void Elevator_Awake_m79B7F73B4346BE86BBDA744E9B897E2045BA6459 (void);
+// 0x00000012 System.Void Elevator::Start()
+extern void Elevator_Start_mF3181FA9434F074BD3AEB9FC162CDA0590F6D523 (void);
+// 0x00000013 System.Void Elevator::OnThis()
+extern void Elevator_OnThis_m8133DBBB31C5A92C4FB7934D5C8C7B88EF44F3A1 (void);
+// 0x00000014 System.Void Elevator::Opened()
+extern void Elevator_Opened_m30F9BA85B09EB9E43D720BD42AAA5920ACD4B94A (void);
+// 0x00000015 System.Void Elevator::Open()
+extern void Elevator_Open_m5A8B3E418D9DA383FF41E8750825709BAB2367A1 (void);
+// 0x00000016 System.Void Elevator::.ctor()
+extern void Elevator__ctor_m82E673E7F2D96E3B0A040DD5FC7B4E1AE6AF37C7 (void);
+// 0x00000017 System.Void FireHydrant::Start()
+extern void FireHydrant_Start_mCC26ACE801E891B9DBE755677BD9BBED837BEF71 (void);
+// 0x00000018 System.Void FireHydrant::OnButton(System.Int32)
+extern void FireHydrant_OnButton_mDA0AFA24D93999E2A83E7B89989B954491DC1380 (void);
+// 0x00000019 System.Void FireHydrant::ResetInput()
+extern void FireHydrant_ResetInput_mD1F20ACA545179E22CFD8F85E8AC03D2835258BE (void);
+// 0x0000001A System.Boolean FireHydrant::IsAllClear()
+extern void FireHydrant_IsAllClear_m566844E502A07E6BB5FFF6EED4733D25AE56CEC5 (void);
+// 0x0000001B System.Void FireHydrant::Clear()
+extern void FireHydrant_Clear_m5B4FE19650BC4551972CCBFF00DDED9CB69A5220 (void);
+// 0x0000001C System.Void FireHydrant::.ctor()
+extern void FireHydrant__ctor_m9C3A46260B383210C23C0624753B76D3C3BAE94B (void);
+// 0x0000001D System.Void Locker::Start()
+extern void Locker_Start_m6E32B432360106C624C40C902837EE1C5B2EB1BD (void);
+// 0x0000001E System.Void Locker::OnThis()
+extern void Locker_OnThis_mEBE00C53F77A84F03C2716C525A274FC9617192A (void);
+// 0x0000001F System.Void Locker::Open()
+extern void Locker_Open_m115EDFA5A91FB130C5F6461A4DCDEE32FC43C2C9 (void);
+// 0x00000020 System.Void Locker::.ctor()
+extern void Locker__ctor_m009ACB371AB58DB9A6DF7D0175DE4325AAFECD4F (void);
+// 0x00000021 System.Void Locker0::Start()
+extern void Locker0_Start_mCE0610038B6F9742E45E3B271D8F18C7E8EC96EC (void);
+// 0x00000022 System.Void Locker0::Open()
+extern void Locker0_Open_mBA25DFCA7CA3002BA9E619AB8AEA31E75A02BDAE (void);
+// 0x00000023 System.Void Locker0::.ctor()
+extern void Locker0__ctor_mE857B215E1EB37BC70CFF0991A5A9133913FEAFC (void);
+// 0x00000024 System.Void Tanuki::Start()
+extern void Tanuki_Start_mDFAD6A7B6CFEA800C802EC52A679243181BBA55E (void);
+// 0x00000025 System.Void Tanuki::OnThis()
+extern void Tanuki_OnThis_m75C52B0844EBBF76571A50A9F9B43670AB41AD42 (void);
+// 0x00000026 System.Void Tanuki::Move()
+extern void Tanuki_Move_m7EAA8E3711DE2D9C3B8EB7545787476685ACF6C7 (void);
+// 0x00000027 System.Void Tanuki::.ctor()
+extern void Tanuki__ctor_m79E782BC0252D4DC71D744DC353AD2662E8C3A63 (void);
+// 0x00000028 System.Void TeaServer::Awake()
+extern void TeaServer_Awake_m3A6A08C82244DE38A7E42140F1223FBEC3DD75F8 (void);
+// 0x00000029 System.Void TeaServer::Start()
+extern void TeaServer_Start_mF64030C4AF57DCD9CF9543D1B770E859F999BA18 (void);
+// 0x0000002A System.Void TeaServer::Moved()
+extern void TeaServer_Moved_mD90C4D24F8EF5D7D24C4096E5820AEF0DAE27BA4 (void);
+// 0x0000002B System.Void TeaServer::Move()
+extern void TeaServer_Move_mB6040AC523A41778B2EF0213C0D4EDEE6B9B2452 (void);
+// 0x0000002C System.Void TeaServer::OnThis()
+extern void TeaServer_OnThis_m269DD3C68691ECA64888A2CDB20A3B7DC7FA5FF9 (void);
+// 0x0000002D System.Void TeaServer::.ctor()
+extern void TeaServer__ctor_mAC2EDFA79E07DC5B0793D77DB981843A0F676A98 (void);
+// 0x0000002E System.Void ItemBox::Awake()
+extern void ItemBox_Awake_m3856A80FD7E20282DE4B588F6D4367AD11489C61 (void);
+// 0x0000002F System.Void ItemBox::Start()
+extern void ItemBox_Start_m6B4888D66E725E77934D409BB5D543A5104F09FE (void);
+// 0x00000030 System.Void ItemBox::SetItem(ItemManager/Item)
+extern void ItemBox_SetItem_m632D05990FF4B83D492754FD1E62E10BEC461783 (void);
+// 0x00000031 System.Boolean ItemBox::CanUseItem(ItemManager/Item)
+extern void ItemBox_CanUseItem_m89253E90C92A3CA7C7417E5249CD95E684D465C9 (void);
+// 0x00000032 System.Void ItemBox::UseItem(ItemManager/Item)
+extern void ItemBox_UseItem_mB100554188DEDDCA1D1C7B59C5EB14D0657093E0 (void);
+// 0x00000033 System.Void ItemBox::.ctor()
+extern void ItemBox__ctor_mBC86A9499BD8EC045B4F5F12B178CF65D05A0864 (void);
+// 0x00000034 System.Void ItemManager::Start()
+extern void ItemManager_Start_m018DF84F484883F5152B8A2AFF80F6E4F2843961 (void);
+// 0x00000035 System.Void ItemManager::OnThis()
+extern void ItemManager_OnThis_m042A2EF0BBAB56285DC9309C91CCDF8E2AC9362F (void);
+// 0x00000036 System.String ItemManager::GetItemName(ItemManager/Item)
+extern void ItemManager_GetItemName_mD64A3C44257C4AC510BA573A98CEF41FE7A00FC3 (void);
+// 0x00000037 System.Void ItemManager::SetToItemBox()
+extern void ItemManager_SetToItemBox_mC4D643C0A31A8F2CC97900E99F01E9946971F104 (void);
+// 0x00000038 System.Void ItemManager::.ctor()
+extern void ItemManager__ctor_mB4E542587417D4CED86516E00930C40F85219460 (void);
+// 0x00000039 System.Void MainManager::Start()
+extern void MainManager_Start_mC9214444CF64A4908FDF87B213F21EB4372ABAB7 (void);
+// 0x0000003A System.Void MainManager::.ctor()
+extern void MainManager__ctor_m90DF2FBE6170D98DF8F9C03C44FB914322C4D10F (void);
+// 0x0000003B System.Void MessageManager::Awake()
+extern void MessageManager_Awake_mA5868E8BB242B06B99AB2D08F439DDA663465CC7 (void);
+// 0x0000003C System.Void MessageManager::Start()
+extern void MessageManager_Start_m54D099A98994BD11313394812C8F78A3F7DF00B1 (void);
+// 0x0000003D System.Void MessageManager::ShowPanel()
+extern void MessageManager_ShowPanel_m70AAB216DA4198C18ABFA70116B121450494283C (void);
+// 0x0000003E System.Void MessageManager::HidePanel()
+extern void MessageManager_HidePanel_m6095A7ADDD2F696C239EDF6B248BBB9D65C8F2FD (void);
+// 0x0000003F System.Void MessageManager::ShowMessage(System.String)
+extern void MessageManager_ShowMessage_m2B1F00F4F787B4B02EF65ECDFED8FC089AA20212 (void);
+// 0x00000040 System.Void MessageManager::.ctor()
+extern void MessageManager__ctor_mB579130256F09CE7258A477D9AFF06539E8DDF19 (void);
+// 0x00000041 System.Void PanelChange::Start()
+extern void PanelChange_Start_m9112B688B8076910920CC322C4F28A24DBBDD3A1 (void);
+// 0x00000042 System.Void PanelChange::HideArrows()
+extern void PanelChange_HideArrows_m3D3D558AD049015518D1A83F2FEF51686AD528BF (void);
+// 0x00000043 System.Void PanelChange::OnRightArrow()
+extern void PanelChange_OnRightArrow_m8E0AE67979D1ACAD15498F8554D0A5DBA0BF985A (void);
+// 0x00000044 System.Void PanelChange::OnLeftArrow()
+extern void PanelChange_OnLeftArrow_mA751D2C114191E6304C34511DE5F8764D1B0C53D (void);
+// 0x00000045 System.Void PanelChange::OnBackArrow()
+extern void PanelChange_OnBackArrow_m3D7E43EC4598F4D9212CF639F776DF253F1DB3E8 (void);
+// 0x00000046 System.Void PanelChange::Init()
+extern void PanelChange_Init_mA17F3D791623E0A53D26E89B075C1B84A22485B0 (void);
+// 0x00000047 System.Void PanelChange::Show(PanelChange/Panel)
+extern void PanelChange_Show_mA2E6A8620E8892333E52F2C0E469E3E79FFB3FAD (void);
+// 0x00000048 System.Void PanelChange::OnLocker0()
+extern void PanelChange_OnLocker0_m596FD6162BA6B9DAEC1BFEB85D40D06F07E4E6CE (void);
+// 0x00000049 System.Void PanelChange::OnPig()
+extern void PanelChange_OnPig_m4550FC436F25360A79D3E4BFD5F2E58AAC6CF3A3 (void);
+// 0x0000004A System.Void PanelChange::OnHoll2()
+extern void PanelChange_OnHoll2_mDA40E3AE849484BF5D6D82BA3FCF3102D2D6D276 (void);
+// 0x0000004B System.Void PanelChange::OnHoll6()
+extern void PanelChange_OnHoll6_m52FF00DC5180D371EFBB142408CF0D07FF96B7C7 (void);
+// 0x0000004C System.Void PanelChange::OnBucket()
+extern void PanelChange_OnBucket_m501CA14A3F23A80CEAB7930D580E6A1E7AF7E37A (void);
+// 0x0000004D System.Void PanelChange::.ctor()
+extern void PanelChange__ctor_m6DA650A869B461B06CF5BC9BFF19275126C480A8 (void);
+// 0x0000004E System.Void SaveManager::Awake()
+extern void SaveManager_Awake_m1C7EE5CAC403C3C367D1981B3D20F456DBF4D68F (void);
+// 0x0000004F System.Void SaveManager::Save()
+extern void SaveManager_Save_m3F92E9B772590EFA7285E028797CDBB14EB8652B (void);
+// 0x00000050 System.Void SaveManager::Load()
+extern void SaveManager_Load_mEDB8FC1D96E4E4D270102EAD2F3ED3193016EB79 (void);
+// 0x00000051 System.Void SaveManager::CreateNewData()
+extern void SaveManager_CreateNewData_m239678E3149AFE6324BCB3B0A6F7815A7959F248 (void);
+// 0x00000052 System.Boolean SaveManager::HasSaveData()
+extern void SaveManager_HasSaveData_mBE0746A1A598ABE6EF769AAF8556F3EA1F760CF2 (void);
+// 0x00000053 System.Void SaveManager::SetGetItemFlag(ItemManager/Item)
+extern void SaveManager_SetGetItemFlag_mF0D76D5FF2548BB3741AB71E61282404F001ED8A (void);
+// 0x00000054 System.Boolean SaveManager::GetUseItemFlag(ItemManager/Item)
+extern void SaveManager_GetUseItemFlag_m530D5F49FAE292D601FD62BC6C589BEFEF33CFB0 (void);
+// 0x00000055 System.Void SaveManager::SetUseItemFlag(ItemManager/Item)
+extern void SaveManager_SetUseItemFlag_m8158F848E0C68458F0C971D44170BFE8D3B8A667 (void);
+// 0x00000056 System.Boolean SaveManager::GetGetItemFlag(ItemManager/Item)
+extern void SaveManager_GetGetItemFlag_m3D052C6E7D1A4858784B61FE2E48AF1BCBD7A2EC (void);
+// 0x00000057 System.Void SaveManager::SetGimmickFlag(SaveManager/Flag)
+extern void SaveManager_SetGimmickFlag_m9726FFCA68AF5831309E81046DCFDBF0D0556926 (void);
+// 0x00000058 System.Boolean SaveManager::GetGimmickFlag(SaveManager/Flag)
+extern void SaveManager_GetGimmickFlag_m044BE44E68E2329636AD87D8276329C5ED46D589 (void);
+// 0x00000059 System.Void SaveManager::.ctor()
+extern void SaveManager__ctor_mB7AB326D2EA77388E750706DEABFB056A6E1C356 (void);
+// 0x0000005A System.Void SaveData::.ctor()
+extern void SaveData__ctor_mBDF4096F6F1E6534B7FEBD083BCE948A2B3718B0 (void);
+// 0x0000005B System.Void SceneChanger::ToTitleScene()
+extern void SceneChanger_ToTitleScene_mBADE85AC3DDF07E88392C740FA554CB76E2D9B0C (void);
+// 0x0000005C System.Void SceneChanger::ToMainScene()
+extern void SceneChanger_ToMainScene_mFE491E6978590C00ACC0D35319B5EB7DB0A72D31 (void);
+// 0x0000005D System.Void SceneChanger::ToClearScene()
+extern void SceneChanger_ToClearScene_m2279839C309C7902CF7C39EF3F03E61D5FC9EDBF (void);
+// 0x0000005E System.Void SceneChanger::.ctor()
+extern void SceneChanger__ctor_m11AE9A596EFE92EE1AA22BD7A48AB0C1D758AB1D (void);
+// 0x0000005F System.Void TitleManager::Start()
+extern void TitleManager_Start_mB1BDED26067331336418D8C8F760161E62F96224 (void);
+// 0x00000060 System.Void TitleManager::OnStartButton()
+extern void TitleManager_OnStartButton_mD979816CFDC978EB275AD77CBDFB3963BBF151F2 (void);
+// 0x00000061 System.Void TitleManager::OnContinueButton()
+extern void TitleManager_OnContinueButton_mCAF4F03A1D2A8D04CACF0C6D7A4FBF050140AF46 (void);
+// 0x00000062 System.Void TitleManager::.ctor()
+extern void TitleManager__ctor_m0D14731249E3B6D0846A587A421CAE4FAD2056D0 (void);
+static Il2CppMethodPointer s_methodPointers[98] = 
+{
+	AudioManager_Awake_mD7873A38A3ED577A313A05D24BF6511E59EDEC01,
+	AudioManager_PlayBGM_m9D98CA52640408CDCE6C7C7DBDB830DA8290FE13,
+	AudioManager_PlaySE_m18C8076F7C8A4381FC6DDFF4F4B1D0C91C1EE89D,
+	AudioManager__ctor_m6C686441D1A1A223E4CF940A8EB0128535D603BD,
+	ClearManager_Start_m6F23FAB8FB2C4C8FF8F7C290B1194EFD025417BB,
+	ClearManager__ctor_m353DB9D546F2D337692878154C0C6C0349E581E1,
+	BreakablePig_Start_mF6BBBEA260E1417D2D976C52800B54FDD4C57981,
+	BreakablePig_OnThis_mDC5FE8416DB0304447FCBAD8A193195DA1E7ACD5,
+	BreakablePig_Break_m5F4A1EF73C67149440076D5434A5E5CF1FD664A8,
+	BreakablePig__ctor_m149BC2B85910FDEE6995270810C4B80A0ACA3F44,
+	DialLocker_OnMarkButton_m425410204D8BBF413644B92C82E9E229117F55F5,
+	DialLocker_ChangeMark_mC167942E6BE211D97AF20228D6E6B1D77ED9A2E4,
+	DialLocker_ShowMark_m0CE808886C90AA34ABC58B53250237F2E6B986D5,
+	DialLocker_IsALLClearMark_m0F3122DA22AC60BB512E12B5239040B07E797F91,
+	DialLocker_Clear_m21B6EC18957B06FE31E1CA9A0854CCE908D44A4D,
+	DialLocker__ctor_m4B494FC937FDCD160760A243939A87DFE8C68E3F,
+	Elevator_Awake_m79B7F73B4346BE86BBDA744E9B897E2045BA6459,
+	Elevator_Start_mF3181FA9434F074BD3AEB9FC162CDA0590F6D523,
+	Elevator_OnThis_m8133DBBB31C5A92C4FB7934D5C8C7B88EF44F3A1,
+	Elevator_Opened_m30F9BA85B09EB9E43D720BD42AAA5920ACD4B94A,
+	Elevator_Open_m5A8B3E418D9DA383FF41E8750825709BAB2367A1,
+	Elevator__ctor_m82E673E7F2D96E3B0A040DD5FC7B4E1AE6AF37C7,
+	FireHydrant_Start_mCC26ACE801E891B9DBE755677BD9BBED837BEF71,
+	FireHydrant_OnButton_mDA0AFA24D93999E2A83E7B89989B954491DC1380,
+	FireHydrant_ResetInput_mD1F20ACA545179E22CFD8F85E8AC03D2835258BE,
+	FireHydrant_IsAllClear_m566844E502A07E6BB5FFF6EED4733D25AE56CEC5,
+	FireHydrant_Clear_m5B4FE19650BC4551972CCBFF00DDED9CB69A5220,
+	FireHydrant__ctor_m9C3A46260B383210C23C0624753B76D3C3BAE94B,
+	Locker_Start_m6E32B432360106C624C40C902837EE1C5B2EB1BD,
+	Locker_OnThis_mEBE00C53F77A84F03C2716C525A274FC9617192A,
+	Locker_Open_m115EDFA5A91FB130C5F6461A4DCDEE32FC43C2C9,
+	Locker__ctor_m009ACB371AB58DB9A6DF7D0175DE4325AAFECD4F,
+	Locker0_Start_mCE0610038B6F9742E45E3B271D8F18C7E8EC96EC,
+	Locker0_Open_mBA25DFCA7CA3002BA9E619AB8AEA31E75A02BDAE,
+	Locker0__ctor_mE857B215E1EB37BC70CFF0991A5A9133913FEAFC,
+	Tanuki_Start_mDFAD6A7B6CFEA800C802EC52A679243181BBA55E,
+	Tanuki_OnThis_m75C52B0844EBBF76571A50A9F9B43670AB41AD42,
+	Tanuki_Move_m7EAA8E3711DE2D9C3B8EB7545787476685ACF6C7,
+	Tanuki__ctor_m79E782BC0252D4DC71D744DC353AD2662E8C3A63,
+	TeaServer_Awake_m3A6A08C82244DE38A7E42140F1223FBEC3DD75F8,
+	TeaServer_Start_mF64030C4AF57DCD9CF9543D1B770E859F999BA18,
+	TeaServer_Moved_mD90C4D24F8EF5D7D24C4096E5820AEF0DAE27BA4,
+	TeaServer_Move_mB6040AC523A41778B2EF0213C0D4EDEE6B9B2452,
+	TeaServer_OnThis_m269DD3C68691ECA64888A2CDB20A3B7DC7FA5FF9,
+	TeaServer__ctor_mAC2EDFA79E07DC5B0793D77DB981843A0F676A98,
+	ItemBox_Awake_m3856A80FD7E20282DE4B588F6D4367AD11489C61,
+	ItemBox_Start_m6B4888D66E725E77934D409BB5D543A5104F09FE,
+	ItemBox_SetItem_m632D05990FF4B83D492754FD1E62E10BEC461783,
+	ItemBox_CanUseItem_m89253E90C92A3CA7C7417E5249CD95E684D465C9,
+	ItemBox_UseItem_mB100554188DEDDCA1D1C7B59C5EB14D0657093E0,
+	ItemBox__ctor_mBC86A9499BD8EC045B4F5F12B178CF65D05A0864,
+	ItemManager_Start_m018DF84F484883F5152B8A2AFF80F6E4F2843961,
+	ItemManager_OnThis_m042A2EF0BBAB56285DC9309C91CCDF8E2AC9362F,
+	ItemManager_GetItemName_mD64A3C44257C4AC510BA573A98CEF41FE7A00FC3,
+	ItemManager_SetToItemBox_mC4D643C0A31A8F2CC97900E99F01E9946971F104,
+	ItemManager__ctor_mB4E542587417D4CED86516E00930C40F85219460,
+	MainManager_Start_mC9214444CF64A4908FDF87B213F21EB4372ABAB7,
+	MainManager__ctor_m90DF2FBE6170D98DF8F9C03C44FB914322C4D10F,
+	MessageManager_Awake_mA5868E8BB242B06B99AB2D08F439DDA663465CC7,
+	MessageManager_Start_m54D099A98994BD11313394812C8F78A3F7DF00B1,
+	MessageManager_ShowPanel_m70AAB216DA4198C18ABFA70116B121450494283C,
+	MessageManager_HidePanel_m6095A7ADDD2F696C239EDF6B248BBB9D65C8F2FD,
+	MessageManager_ShowMessage_m2B1F00F4F787B4B02EF65ECDFED8FC089AA20212,
+	MessageManager__ctor_mB579130256F09CE7258A477D9AFF06539E8DDF19,
+	PanelChange_Start_m9112B688B8076910920CC322C4F28A24DBBDD3A1,
+	PanelChange_HideArrows_m3D3D558AD049015518D1A83F2FEF51686AD528BF,
+	PanelChange_OnRightArrow_m8E0AE67979D1ACAD15498F8554D0A5DBA0BF985A,
+	PanelChange_OnLeftArrow_mA751D2C114191E6304C34511DE5F8764D1B0C53D,
+	PanelChange_OnBackArrow_m3D7E43EC4598F4D9212CF639F776DF253F1DB3E8,
+	PanelChange_Init_mA17F3D791623E0A53D26E89B075C1B84A22485B0,
+	PanelChange_Show_mA2E6A8620E8892333E52F2C0E469E3E79FFB3FAD,
+	PanelChange_OnLocker0_m596FD6162BA6B9DAEC1BFEB85D40D06F07E4E6CE,
+	PanelChange_OnPig_m4550FC436F25360A79D3E4BFD5F2E58AAC6CF3A3,
+	PanelChange_OnHoll2_mDA40E3AE849484BF5D6D82BA3FCF3102D2D6D276,
+	PanelChange_OnHoll6_m52FF00DC5180D371EFBB142408CF0D07FF96B7C7,
+	PanelChange_OnBucket_m501CA14A3F23A80CEAB7930D580E6A1E7AF7E37A,
+	PanelChange__ctor_m6DA650A869B461B06CF5BC9BFF19275126C480A8,
+	SaveManager_Awake_m1C7EE5CAC403C3C367D1981B3D20F456DBF4D68F,
+	SaveManager_Save_m3F92E9B772590EFA7285E028797CDBB14EB8652B,
+	SaveManager_Load_mEDB8FC1D96E4E4D270102EAD2F3ED3193016EB79,
+	SaveManager_CreateNewData_m239678E3149AFE6324BCB3B0A6F7815A7959F248,
+	SaveManager_HasSaveData_mBE0746A1A598ABE6EF769AAF8556F3EA1F760CF2,
+	SaveManager_SetGetItemFlag_mF0D76D5FF2548BB3741AB71E61282404F001ED8A,
+	SaveManager_GetUseItemFlag_m530D5F49FAE292D601FD62BC6C589BEFEF33CFB0,
+	SaveManager_SetUseItemFlag_m8158F848E0C68458F0C971D44170BFE8D3B8A667,
+	SaveManager_GetGetItemFlag_m3D052C6E7D1A4858784B61FE2E48AF1BCBD7A2EC,
+	SaveManager_SetGimmickFlag_m9726FFCA68AF5831309E81046DCFDBF0D0556926,
+	SaveManager_GetGimmickFlag_m044BE44E68E2329636AD87D8276329C5ED46D589,
+	SaveManager__ctor_mB7AB326D2EA77388E750706DEABFB056A6E1C356,
+	SaveData__ctor_mBDF4096F6F1E6534B7FEBD083BCE948A2B3718B0,
+	SceneChanger_ToTitleScene_mBADE85AC3DDF07E88392C740FA554CB76E2D9B0C,
+	SceneChanger_ToMainScene_mFE491E6978590C00ACC0D35319B5EB7DB0A72D31,
+	SceneChanger_ToClearScene_m2279839C309C7902CF7C39EF3F03E61D5FC9EDBF,
+	SceneChanger__ctor_m11AE9A596EFE92EE1AA22BD7A48AB0C1D758AB1D,
+	TitleManager_Start_mB1BDED26067331336418D8C8F760161E62F96224,
+	TitleManager_OnStartButton_mD979816CFDC978EB275AD77CBDFB3963BBF151F2,
+	TitleManager_OnContinueButton_mCAF4F03A1D2A8D04CACF0C6D7A4FBF050140AF46,
+	TitleManager__ctor_m0D14731249E3B6D0846A587A421CAE4FAD2056D0,
+};
+static const int32_t s_InvokerIndices[98] = 
+{
+	1156,
+	978,
+	978,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	978,
+	978,
+	978,
+	1092,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	978,
+	1156,
+	1092,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	978,
+	727,
+	978,
+	1156,
+	1156,
+	1156,
+	885,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	987,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	978,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1092,
+	978,
+	727,
+	978,
+	727,
+	978,
+	727,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+	1156,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	98,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
